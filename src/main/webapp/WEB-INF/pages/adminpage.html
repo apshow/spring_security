@@ -11,52 +11,15 @@
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
           crossorigin="anonymous">
 
-    <style type="text/css">
-        .tg {
-            border-collapse: collapse;
-            border-spacing: 0;
-            border-color: #ccc;
-        }
-
-        .tg td {
-            front-familly: Arial, sans-serif;
-            front-size: 14px;
-            padding: 10px 5px;
-            border-style: solid;
-            border-width: 1px;
-            overflow: hidden;
-            word-break: normal;
-            border-color: #ccc;
-            color: #333;
-            background-color: #fff;
-        }
-
-        .tg th {
-            front-familly: Arial, sans-serif;
-            front-size: 14px;
-            padding: 10px 5px;
-            border-style: solid;
-            border-width: 1px;
-            overflow: hidden;
-            word-break: normal;
-            border-color: #ccc;
-            color: #333;
-            background-color: #f0f0f0;
-        }
-
-        .tg .tg-4eph {
-            background-color: #f9f9f9;
-        }
-    </style>
 </head>
 <body>
-<!--    tg стиль который указан выше-->
+
 <div th:align="center" class="tg">
     <h1>Admin Page</h1>
     <br/>
     <br/>
     <h2>USERS</h2>
-    <h3><a href="/admin/new.html">Add User</a></h3>
+
     <table border="1" cellpadding="5">
         <tr>
             <th>ID</th>
@@ -78,6 +41,7 @@
         </tr>
     </table>
     <br/>
+    <h3><a href="/admin/new.html">Add User</a></h3>
     <br/>
     <a th:href="@{/logout}">LOGOUT</a>
 </div>
